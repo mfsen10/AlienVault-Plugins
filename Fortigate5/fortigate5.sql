@@ -903,6 +903,8 @@ INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 28704, NULL, NULL, 1, 3, 'Fortigate: Application Control IPS Log (Pass)');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 28705, NULL, NULL, 1, 3, 'Fortigate: Application Control IPS Log (Block)');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 32141, NULL, NULL, 1, 3, 'Fortigate: System - Global time setting changed by NTP');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 38408, NULL, NULL, 1, 3, 'Fortigate: System - SSL connection established (FAZ)');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 38409, NULL, NULL, 1, 3, 'Fortigate: WiFi - SSL connection closed (FAZ)');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43040, NULL, NULL, 1, 3, 'Fortigate: FSSO User: User logout');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43041, NULL, NULL, 1, 3, 'Fortigate: User - Disclaimer Accepted');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43563, NULL, NULL, 1, 3, 'Fortigate: WiFi - Rogue AP Detected');
