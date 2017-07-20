@@ -897,7 +897,7 @@ INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory
 
 
 
-#Add some lovely undocumented & chatty SID/LOG_ID's (from Forti_5.2 branch?)
+ -- #Add some lovely undocumented & chatty SID/LOG_ID's (from Forti_5.2 branch?)
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 12552, NULL, NULL, 1, 3, 'Fortigate: WebFilter - Passthrough - Error on HTTPS SNI invalid domain name');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 28704, NULL, NULL, 1, 3, 'Fortigate: Application Control IPS Log (Pass)');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 28705, NULL, NULL, 1, 3, 'Fortigate: Application Control IPS Log (Block)');
