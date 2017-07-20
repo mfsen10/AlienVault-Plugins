@@ -894,3 +894,18 @@ INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 48301, NULL, NULL, 1, 5, 'Fortigate: unepxected application type.');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 51000, NULL, NULL, 1, 1, 'Fortigate: neighbor table change');
 INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 20019, NULL, NULL, 1, 1, 'Fortigate: Dead Gateway Detection');
+
+
+
+#Add some lovely undocumented SID/LOG_ID's from Forti_5.2 branch
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43564, NULL, NULL, 1, 3, 'Fortigate: WiFi - Rogue AP went off-air');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43573, NULL, NULL, 1, 3, 'Fortigate: WiFi - Client Authenticated');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43579, NULL, NULL, 1, 3, 'Fortigate: WiFi - Client assigned IP address');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43580, NULL, NULL, 1, 3, 'Fortigate: WiFi - Client Left WTP');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43591, NULL, NULL, 1, 3, 'Fortigate: WiFi - AP Country radioband set (success)');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43593, NULL, NULL, 1, 3, 'Fortigate: WiFi - AP cfg TX power changed');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43594, NULL, NULL, 1, 3, 'Fortigate: WiFi - AP oper TXpower changed');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43040, NULL, NULL, 1, 3, 'Fortigate: FSSO User: User logout');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43563, NULL, NULL, 1, 3, 'Fortigate: WiFi - Rogue AP Detected');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43571, NULL, NULL, 1, 3, 'Fortigate: WiFi - Rogue AP changed channel');
+INSERT IGNORE INTO `plugin_sid` (`plugin_id`, `sid`, `category_id`, `subcategory_id`, `reliability`, `priority`, `name`) VALUES (90009, 43575, NULL, NULL, 1, 3, 'Fortigate: WiFi - Client De-Authenticated');
